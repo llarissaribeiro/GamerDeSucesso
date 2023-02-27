@@ -1,0 +1,1 @@
+Projeto baseado em uma landing page disponibilizada no Figma, a partir dessa criei a versão Web utilizando HTML, CSS E Bootstrap
