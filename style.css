@@ -1,0 +1,536 @@
+@font-face {
+  font-family: 'Lufga';
+  src: url('fonts/LufgaRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container00{
+  background-color: #09050D;
+  min-height: 100vh;
+  font-family: 'Lufga';
+  position: relative;
+  z-index: -2;
+  color: white;
+}
+
+
+.container01{
+  padding-left: 100px;
+  position: relative;
+  z-index: +1;
+}
+
+.formaBanner{
+  position:absolute;
+  width: 100%;
+  height: 740px;
+  left: 0;
+  z-index: -1;
+}
+
+.gamerLogo{
+  width: 200px;
+  padding-top: 120px;
+  
+}
+
+.titleBanner{
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.titleBannerColor{
+  margin-top: -10px;
+  font-weight: bold;
+  font-size: 51px;
+  color: #69D9FE;
+}
+
+.subtitleBanner{
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.emailBanner{
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+::placeholder{
+  color: #FFFF;
+  font-size: 14px;
+}
+
+.buttonBanner{
+  background-color: rgba(225, 34, 127, 1);
+  color: white;
+  font-size: 22px;
+  width: 400px;
+  padding: 15px;
+  margin-top: 15px;
+  border: rgba(255, 255, 255, 0);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 90% 100%, 0% 100%);
+
+}
+
+.buttonBanner:hover{
+  background-color: rgb(170, 5, 85);
+}
+
+.imgBanner{
+  width: 580px;
+  padding-top: 100px;
+}
+
+
+.teclado{
+  position: absolute;
+  right: 0;
+  top: 500px;
+  z-index: +3;
+  width: 500px;
+}
+
+.container02{
+  background-color: #09050D;
+  padding-top: 150px;
+  color: white;
+  font-family: 'Lufga';
+  padding-bottom: 30px;
+}
+
+.titleCard{
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 160px;
+}
+
+.titleCardColor{
+  color: #69D9FE;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: -15px;
+  padding-left: 160px;
+}
+
+.cardSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  width: 78%;
+}
+
+.imgCardContent{
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(313.92deg, #7C38B2 -0.96%, #69D9FE 98.46%);
+  border-radius: 2px;
+  margin-left: 40px;
+}
+
+.imgCard{
+  width: 50px;
+  padding-top: 15px;
+}
+
+.cardContent{
+  background: rgba(255, 255, 255, 0.1);
+  height: 250px;
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleCardContent{
+  padding-top: 50px;
+  width: 75%;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.subtitleCardContent{
+  width: 75%;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 200;
+}
+
+.container03{
+  padding-top: 50px;
+}
+
+.imgProfessionalGamer{
+  width: 650px;
+  margin-left: -80px;
+}
+
+.professionalGamerDescription{
+  margin-right: 80px;
+  padding-left: 50px;
+}
+
+.titleProfessionalGamer{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.titleProfessionalGamerColor{
+  font-weight: bold;
+  font-size: 40px;
+  color: #69D9FE;
+  margin-top: -10px;
+}
+
+.descriptionProfessionalGamer{
+  font-size: 15px;
+  font-weight:300;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+.container04{
+  font-family: 'Lufga';
+  background: linear-gradient(262.6deg, #7C38B2 -37.81%, #69D9FE 64.17%);
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.inscriptionSection{
+  width: 65%;
+}
+
+.titleInscription{
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: left;
+}
+
+.buttonInscription{
+  background-color: rgba(225, 34, 127, 1);
+  color: white;
+  font-size: 22px;
+  width: 400px;
+  padding: 15px;
+  margin-top: 30px;
+  border: rgba(255, 255, 255, 0);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 90% 100%, 0% 100%);
+
+}
+
+.buttonInscription:hover{
+  background-color: rgb(170, 5, 85);
+}
+
+.container05{
+  padding-top: 70px;
+}
+
+.imgMentor{
+  width: 650px;
+  margin-left: -120px;
+}
+
+.mentorSection{
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.titleMentor{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+
+}
+
+.titleMentorColor{
+  font-weight: bold;
+  font-size: 40px;
+  color: #69D9FE;
+  margin-top: -20px;
+}
+
+.descriptionMentor{
+  font-size: 14px;
+  font-weight:300;
+  text-align: justify;
+  margin-right: 50px;
+}
+
+.pixelArt{
+  width: 200px;
+  position: absolute;
+  right: 0;
+  top: -100px;
+  z-index: +3;
+}
+
+.footer{
+  background-color: #09050D;
+  font-family: 'Lufga';
+  color: #a1a1a1;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: #a1a1a146 1px solid;
+}
+
+@media (max-width:430px){
+  .container01{
+    background-image: url(./Images/Formamobile.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 850px;
+    z-index: +1;
+    height: 850px;
+
+  }
+  .imgBanner{
+  width: 380px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  margin-top: -50px;
+  }
+  
+  .formaBanner{
+    display: none;
+}
+  .bannerSection{
+    padding-top: 320px;
+  }
+
+  .gamerLogo{
+    width: 150px;
+    margin-left: -80px;
+  }
+
+  .titleBanner{
+    font-size: 28px;
+    margin-left: -80px;
+    line-height: 28px;
+  }
+
+  .titleBannerColor{
+    font-size: 28px;
+    margin-left: -80px;
+    padding-top: 2px;
+
+  }
+
+  .subtitleBanner{
+  margin-left: -80px;
+  font-size: 12px;
+}
+
+  .teclado{
+  top: 300px;
+  width: 250px;
+}
+
+.buttonBanner{
+  font-size: 12px;
+  width: 320px;
+  margin-left: -80px;
+  padding: 12px;
+}
+
+.emailBanner{
+  width: 320px;
+  margin-left: -80px;
+  padding: 12px;
+}
+
+::placeholder{
+  font-size: 10px;
+}
+
+.container02{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.titleCard{
+  font-size: 28px;
+  padding-left: 55px;
+}
+
+.titleCardColor{
+  font-size: 28px;
+  margin-top: -10px;
+  padding-left: 55px;
+}
+
+.cardSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  width: 75%;
+}
+
+.imgCardContent{
+  width: 60px;
+  height: 60px;
+}
+
+.imgCard{
+  width: 30px;
+  padding-top: 15px;
+}
+
+.cardContent{
+  height: 200px;
+  width: 80vh;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.titleCardContent{
+  padding-top: 50px;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.subtitleCardContent{
+  font-size: 14px;
+  line-height: 16px;  
+}
+
+.container03{
+  padding-top: 0px;
+}
+
+.imgProfessionalGamer{
+  width: 380px;
+  margin-left: -30px;
+}
+
+.professionalGamerDescription{
+  margin-left: -20px;
+  padding-top: 20px;
+  margin-right: 0;
+}
+
+.titleProfessionalGamer{
+  font-size: 28px;
+  line-height: 30px;
+}
+
+.titleProfessionalGamerColor{
+  font-size: 28px;
+  line-height: 30px;
+}
+
+.descriptionProfessionalGamer{
+  font-size: 13px;
+  margin-right: 10px;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.container04{
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.inscriptionSection{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleInscription{
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.buttonInscription{
+  font-size: 12px;
+  width: 150px;
+  padding: 3px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 90% 100%, 0% 100%);
+  margin-top: -10px;
+
+}
+
+.container05{
+  padding-top: 70px;
+}
+
+.imgMentor{
+  width: 450px;
+  margin-left: -120px;
+}
+
+.mentorSection{
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.titleMentor{
+  font-size: 28px;
+  padding-top: 400px;
+  margin-left: -230px;
+
+}
+
+.titleMentorColor{
+  font-size: 28px;
+  margin-top: -20px;
+  margin-left: -230px;
+}
+
+.descriptionMentor{
+  font-size: 13px;
+  text-align: left;
+  margin-right: -10px;
+  margin-left: -230px;
+}
+
+.pixelArt{
+  width: 100px;
+  top: 150px;
+}
+
+.footer{
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  border-top: #a1a1a146 1px solid;
+}
+
+
+
+
+
+}
