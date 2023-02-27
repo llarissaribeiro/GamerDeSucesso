@@ -403,7 +403,7 @@
 
 .cardContent{
   height: 200px;
-  width: 80vh;
+  width: 230px;
   margin-top: -30px;
   margin-bottom: 30px;
 }
@@ -452,7 +452,7 @@
 }
 
 .container04{
-  height: 35vh;
+  height: 25vh;
   display: flex;
   align-items: center;
   justify-content: center;
