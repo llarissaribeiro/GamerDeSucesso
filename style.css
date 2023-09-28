@@ -13,7 +13,6 @@
 
 .container00{
   background-color: #09050D;
-  min-height: 100vh;
   font-family: 'Lufga';
   position: relative;
   z-index: -2;
@@ -51,13 +50,13 @@
 .titleBannerColor{
   margin-top: -10px;
   font-weight: bold;
-  font-size: 51px;
+  font-size: 3rem;
   color: #69D9FE;
 }
 
 .subtitleBanner{
   font-weight: 100;
-  font-size: 16px;
+  font-size: 1.5rem;
 }
 
 .emailBanner{
@@ -111,14 +110,14 @@
 }
 
 .titleCard{
-  font-size: 50px;
+  font-size: 3rem;
   font-weight: bold;
   padding-left: 160px;
 }
 
 .titleCardColor{
   color: #69D9FE;
-  font-size: 50px;
+  font-size: 3rem;
   font-weight: bold;
   margin-top: -15px;
   padding-left: 160px;
@@ -158,14 +157,14 @@
 .titleCardContent{
   padding-top: 50px;
   width: 75%;
-  font-size: 28px;
+  font-size: 2rem;
   line-height: 30px;
   font-weight: bold;
 }
 
 .subtitleCardContent{
   width: 75%;
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 20px;
   font-weight: 200;
 }
@@ -186,19 +185,19 @@
 
 .titleProfessionalGamer{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 50px;
 }
 
 .titleProfessionalGamerColor{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #69D9FE;
   margin-top: -10px;
 }
 
 .descriptionProfessionalGamer{
-  font-size: 15px;
+  font-size: 1.1rem;
   font-weight:300;
   text-align: justify;
   margin-right: 50px;
@@ -221,7 +220,7 @@
 .titleInscription{
   color: black;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 42px;
   text-align: left;
 }
@@ -229,7 +228,7 @@
 .buttonInscription{
   background-color: rgba(225, 34, 127, 1);
   color: white;
-  font-size: 22px;
+  font-size: 1.3rem;
   width: 400px;
   padding: 15px;
   margin-top: 30px;
@@ -258,20 +257,20 @@
 
 .titleMentor{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 50px;
 
 }
 
 .titleMentorColor{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #69D9FE;
   margin-top: -20px;
 }
 
 .descriptionMentor{
-  font-size: 14px;
+  font-size: 1.1rem;
   font-weight:300;
   text-align: justify;
   margin-right: 50px;
@@ -294,6 +293,151 @@
   align-items: center;
   justify-content: center;
   border-top: #a1a1a146 1px solid;
+}
+
+@media (max-width:1024px){
+  .container01{
+    position: relative;
+  }
+
+  .titleBanner{
+    font-size: 2.2rem;
+    line-height: 2rem;
+  }
+
+  .titleBannerColor{
+    font-size: 2.2rem;
+  }
+
+  .subtitleBanner{
+    font-size: 1.1rem;
+  }
+
+  .imgBanner{
+    width: 28rem;
+    position: absolute;
+    top: 1rem;
+  }
+
+  .teclado{
+    position: absolute;
+    top:  25rem;
+  }
+
+  .formaBanner{
+    height: 38.5rem;
+  }
+
+  .imgProfessionalGamer{
+    width: 25rem;
+  }
+
+  .container04{
+    height: 12rem;
+  }
+
+  .inscriptionSection{
+    width: 80%;
+  }
+
+  .titleInscription{
+    font-size: 2rem;
+  }
+
+  .imgMentor{
+    width: 35rem;
+  }
+}
+
+@media(max-width:768px){
+  .titleBanner{
+    font-size: 1.8rem;
+  }
+
+  .titleBannerColor{
+    font-size: 1.8rem;
+  }
+
+  #email{
+    width: 20rem;
+  }
+
+  .buttonBanner{
+    width: 20rem;
+    font-size: 1rem;
+  }
+
+  .subtitleBanner{
+    font-size: 1rem;
+  }
+
+  .imgBanner{
+    width: 20rem;
+    position: absolute;
+    top: 8.6rem;
+  }
+
+  .teclado{
+    width: 22rem;
+    top:  25rem;
+  }
+
+  .formaBanner{
+    height: 38.5rem;
+  }
+
+  .imgCardContent{
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .imgCard{
+    width: 2.5rem;
+  }
+
+  .titleCardColor, .titleCard{
+    font-size: 2.2rem;
+  }
+
+  .cardContent{
+    height: 14rem;
+  }
+
+  .titleCardContent{
+    font-size: 1.1rem;
+    line-height: 1rem;
+  }
+
+  .subtitleCardContent{
+    font-size: 0.8rem;
+  }
+
+  .titleProfessionalGamer, .titleProfessionalGamerColor{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .imgProfessionalGamer{
+    width: 20rem;
+  }
+
+  .titleInscription{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+
+  .buttonInscription{
+    width: 15rem;
+    margin-top: -2px;
+  }
+
+  .imgMentor{
+    width: 26rem;
+  }
+
+  .pixelArt{
+    width: 8rem;
+  }
 }
 
 @media (max-width:430px){
